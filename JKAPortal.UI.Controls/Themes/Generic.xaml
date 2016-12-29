@@ -1,0 +1,10 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:JKAPortal.UI.Controls">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/JKAPortal.UI.Controls;component/Themes/Q3ColoredTextBlock.Generic.xaml" />
+        <ResourceDictionary Source="/JKAPortal.UI.Controls;component/Themes/ButtonEx.Generic.xaml" />
+        <ResourceDictionary Source="/JKAPortal.UI.Controls;component/Themes/FileSelectTextBox.Generic.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

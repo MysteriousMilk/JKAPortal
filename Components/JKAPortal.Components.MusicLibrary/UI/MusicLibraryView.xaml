@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="JKAPortal.Components.UI.MusicLibraryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:Metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:local="clr-namespace:JKAPortal.Components.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label HorizontalContentAlignment="Stretch" Background="#007ACC">
+            <Grid Height="42">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Music Library" Grid.RowSpan="2" VerticalAlignment="Center" Margin="5"
+                           FontSize="14" />
+                <Button Grid.Column="1" Style="{DynamicResource MetroCircleButtonStyle}" Width="40" Height="40" Background="#3F3F46">
+                    <iconPacks:PackIconModern Kind="TilesFour" />
+                </Button>
+            </Grid>
+        </Label>
+    </Grid>
+</UserControl>

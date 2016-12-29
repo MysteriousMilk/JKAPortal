@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.API", "JKAPortal.API\JKAPortal.API.csproj", "{7BF9A8EF-8A3E-4228-80B8-00AEC2698992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.Core", "JKAPortal.Core\JKAPortal.Core.csproj", "{D51A68AC-CD21-456F-A616-222FE9B75AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.Model.Q3", "JKAPortal.Model.Q3\JKAPortal.Model.Q3.csproj", "{23DCB184-BC87-4175-8E27-A50CD6D545F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.Theme.Cobalt", "JKAPortal.Theme.Cobalt\JKAPortal.Theme.Cobalt.csproj", "{783EFAF1-C665-488D-BEF2-60F5BA755E6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.Utilities.MVVM", "JKAPortal.Utilities.MVVM\JKAPortal.Utilities.MVVM.csproj", "{AADE3700-38DD-44C4-9087-E6B5A5B73B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.UI.Controls", "JKAPortal.UI.Controls\JKAPortal.UI.Controls.csproj", "{84451AF4-ECB4-4FE9-AE4A-16159B3E5462}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{044FF9C2-E3A2-43A2-85BB-1CA173497339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.Components.ServerBrowser", "Components\JKAPortal.Components.ServerBrowser\JKAPortal.Components.ServerBrowser.csproj", "{7415C2E0-B4DE-4FC6-9A33-812354CD5F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.UI", "JKAPortal.UI\JKAPortal.UI.csproj", "{40B7E1C0-4536-463E-97DD-4ED7072F00F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.Presentation", "JKAPortal.Presentation\JKAPortal.Presentation.csproj", "{69B742F3-7092-4821-8800-F91328AE96A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKA Portal", "JKA Portal\JKA Portal.csproj", "{A8713285-A269-41C5-B8C2-8AFD681577E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKAPortal.Components.MusicLibrary", "Components\JKAPortal.Components.MusicLibrary\JKAPortal.Components.MusicLibrary.csproj", "{E7C211B9-36A1-4A74-9E56-144B86F228E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Official|Any CPU = Official|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BF9A8EF-8A3E-4228-80B8-00AEC2698992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF9A8EF-8A3E-4228-80B8-00AEC2698992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF9A8EF-8A3E-4228-80B8-00AEC2698992}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{7BF9A8EF-8A3E-4228-80B8-00AEC2698992}.Official|Any CPU.Build.0 = Official|Any CPU
+		{7BF9A8EF-8A3E-4228-80B8-00AEC2698992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF9A8EF-8A3E-4228-80B8-00AEC2698992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51A68AC-CD21-456F-A616-222FE9B75AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51A68AC-CD21-456F-A616-222FE9B75AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51A68AC-CD21-456F-A616-222FE9B75AB7}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{D51A68AC-CD21-456F-A616-222FE9B75AB7}.Official|Any CPU.Build.0 = Official|Any CPU
+		{D51A68AC-CD21-456F-A616-222FE9B75AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51A68AC-CD21-456F-A616-222FE9B75AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23DCB184-BC87-4175-8E27-A50CD6D545F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DCB184-BC87-4175-8E27-A50CD6D545F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DCB184-BC87-4175-8E27-A50CD6D545F9}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{23DCB184-BC87-4175-8E27-A50CD6D545F9}.Official|Any CPU.Build.0 = Official|Any CPU
+		{23DCB184-BC87-4175-8E27-A50CD6D545F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DCB184-BC87-4175-8E27-A50CD6D545F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783EFAF1-C665-488D-BEF2-60F5BA755E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783EFAF1-C665-488D-BEF2-60F5BA755E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783EFAF1-C665-488D-BEF2-60F5BA755E6D}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{783EFAF1-C665-488D-BEF2-60F5BA755E6D}.Official|Any CPU.Build.0 = Official|Any CPU
+		{783EFAF1-C665-488D-BEF2-60F5BA755E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783EFAF1-C665-488D-BEF2-60F5BA755E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADE3700-38DD-44C4-9087-E6B5A5B73B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADE3700-38DD-44C4-9087-E6B5A5B73B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADE3700-38DD-44C4-9087-E6B5A5B73B33}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{AADE3700-38DD-44C4-9087-E6B5A5B73B33}.Official|Any CPU.Build.0 = Official|Any CPU
+		{AADE3700-38DD-44C4-9087-E6B5A5B73B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADE3700-38DD-44C4-9087-E6B5A5B73B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84451AF4-ECB4-4FE9-AE4A-16159B3E5462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84451AF4-ECB4-4FE9-AE4A-16159B3E5462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84451AF4-ECB4-4FE9-AE4A-16159B3E5462}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{84451AF4-ECB4-4FE9-AE4A-16159B3E5462}.Official|Any CPU.Build.0 = Official|Any CPU
+		{84451AF4-ECB4-4FE9-AE4A-16159B3E5462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84451AF4-ECB4-4FE9-AE4A-16159B3E5462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7415C2E0-B4DE-4FC6-9A33-812354CD5F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7415C2E0-B4DE-4FC6-9A33-812354CD5F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7415C2E0-B4DE-4FC6-9A33-812354CD5F94}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{7415C2E0-B4DE-4FC6-9A33-812354CD5F94}.Official|Any CPU.Build.0 = Official|Any CPU
+		{7415C2E0-B4DE-4FC6-9A33-812354CD5F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7415C2E0-B4DE-4FC6-9A33-812354CD5F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B7E1C0-4536-463E-97DD-4ED7072F00F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B7E1C0-4536-463E-97DD-4ED7072F00F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B7E1C0-4536-463E-97DD-4ED7072F00F8}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{40B7E1C0-4536-463E-97DD-4ED7072F00F8}.Official|Any CPU.Build.0 = Official|Any CPU
+		{40B7E1C0-4536-463E-97DD-4ED7072F00F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B7E1C0-4536-463E-97DD-4ED7072F00F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B742F3-7092-4821-8800-F91328AE96A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B742F3-7092-4821-8800-F91328AE96A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B742F3-7092-4821-8800-F91328AE96A9}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{69B742F3-7092-4821-8800-F91328AE96A9}.Official|Any CPU.Build.0 = Official|Any CPU
+		{69B742F3-7092-4821-8800-F91328AE96A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B742F3-7092-4821-8800-F91328AE96A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8713285-A269-41C5-B8C2-8AFD681577E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8713285-A269-41C5-B8C2-8AFD681577E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8713285-A269-41C5-B8C2-8AFD681577E4}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{A8713285-A269-41C5-B8C2-8AFD681577E4}.Official|Any CPU.Build.0 = Official|Any CPU
+		{A8713285-A269-41C5-B8C2-8AFD681577E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8713285-A269-41C5-B8C2-8AFD681577E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C211B9-36A1-4A74-9E56-144B86F228E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C211B9-36A1-4A74-9E56-144B86F228E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C211B9-36A1-4A74-9E56-144B86F228E1}.Official|Any CPU.ActiveCfg = Official|Any CPU
+		{E7C211B9-36A1-4A74-9E56-144B86F228E1}.Official|Any CPU.Build.0 = Official|Any CPU
+		{E7C211B9-36A1-4A74-9E56-144B86F228E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C211B9-36A1-4A74-9E56-144B86F228E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7415C2E0-B4DE-4FC6-9A33-812354CD5F94} = {044FF9C2-E3A2-43A2-85BB-1CA173497339}
+		{E7C211B9-36A1-4A74-9E56-144B86F228E1} = {044FF9C2-E3A2-43A2-85BB-1CA173497339}
+	EndGlobalSection
+EndGlobal

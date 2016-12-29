@@ -1,0 +1,28 @@
+﻿<Metro:MetroWindow x:Class="JKAPortal.UI.Shell.ShellView"
+                   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                   xmlns:Metro="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                   xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+                   xmlns:cal="http://www.caliburnproject.org"
+                   xmlns:local="clr-namespace:JKAPortal.UI.Shell"
+                   mc:Ignorable="d"
+                   RightWindowCommandsOverlayBehavior="Flyouts"
+                   BorderBrush="{DynamicResource AccentColorBrush}"
+                   BorderThickness="1"
+                   Title="JKA Portal" Icon="../Icons/jkap_logo.png">
+    <Metro:MetroWindow.RightWindowCommands>
+        <Metro:WindowCommands>
+            <Button cal:Message.Attach="ActivateSettings()">
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconModern Kind="Settings" Width="20" Height="20" />
+                    <TextBlock Margin="4 0 0 0" VerticalAlignment="Center" Text="settings" />
+                </StackPanel>
+            </Button>
+        </Metro:WindowCommands>
+    </Metro:MetroWindow.RightWindowCommands>
+    <Grid>
+        <ContentControl cal:View.Model="{Binding ActiveContent}" />
+    </Grid>
+</Metro:MetroWindow>
